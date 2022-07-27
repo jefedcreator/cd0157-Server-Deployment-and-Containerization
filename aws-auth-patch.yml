@@ -1,14 +1,14 @@
 apiVersion: v1
 data:
   mapRoles: |
-    - groups:
+   - groups:
       - system:masters
       rolearn: arn:aws:iam::800328424226:role/UdacityFlaskDeployCBKubectlRole
       username: build 
 kind: ConfigMap
 metadata:
-  creationTimestamp: "2022-07-26T16:51:19Z"
+  creationTimestamp: "2022-07-27T16:00:57Z"
   name: aws-auth
   namespace: kube-system
-  resourceVersion: "6006"
-  uid: 4289dbf2-1f36-45e5-a6d9-d08ab2d23c33
+  resourceVersion: "1708"
+  uid: 1bcecaf5-3154-4f37-958d-71a2985e77aa
